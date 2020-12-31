@@ -1,0 +1,25 @@
+html {
+	box-sizing: border-box;
+	background-color: rgb(70, 104, 255);
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	background-color: rgb(131, 248, 150);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 600px;
+	height: 100vh;
+	text-transform: uppercase;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
